@@ -1,0 +1,52 @@
+#react-burger-menu-btn{
+  width: 40px !important;
+}
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 30px !important;
+  width: 30px !important;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+  height: 20px !important;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #39094a;
+}
+
+
+/* Wrapper for item list */
+.bm-item-list {
+  padding: 0.8em;
+  margin-top: 20px;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  padding:10px;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+  transform : initial;
+}
